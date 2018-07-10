@@ -1,0 +1,424 @@
+
+<!-- saved from url=(0050)http://docs.makotemplates.org/en/latest/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="http://docs.makotemplates.org/favicon.ico" type="image/x-icon">
+
+<title>
+    Mako 1.0.8 Documentation
+</title>
+
+<!-- begin iterate through sphinx environment css_files -->
+    <link rel="stylesheet" href="./Mako 1.0.8 Documentation_files/pygments.css" type="text/css">
+    <link rel="stylesheet" href="./Mako 1.0.8 Documentation_files/docs.css" type="text/css">
+    <link rel="stylesheet" href="./Mako 1.0.8 Documentation_files/site.css" type="text/css">
+    <link rel="stylesheet" href="./Mako 1.0.8 Documentation_files/badge_only.css" type="text/css">
+    <link rel="stylesheet" href="./Mako 1.0.8 Documentation_files/changelog.css" type="text/css">
+    <link rel="stylesheet" href="./Mako 1.0.8 Documentation_files/sphinx_paramlinks.css" type="text/css">
+<!-- end iterate through sphinx environment css_files -->
+
+
+
+<link href="./Mako 1.0.8 Documentation_files/css" rel="stylesheet" type="text/css">
+
+<!-- RTD <head> via mako adapter -->
+<script async="" src="./Mako 1.0.8 Documentation_files/analytics.js"></script><script type="text/javascript">
+    var doc_version = "latest";
+    var doc_slug = "mako";
+    var static_root = "_static"
+
+    // copied from:
+    // https://github.com/rtfd/readthedocs.org/commit/edbbb4c753454cf20c128d4eb2fef60d740debaa#diff-2f70e8d9361202bfe3f378d2ff2c510bR8
+    var READTHEDOCS_DATA = {
+        project: "mako",
+        version: "latest",
+        page: "index",
+        theme: "default"
+      };
+
+</script>
+<!-- end RTD <head> via mako adapter -->
+
+    
+    
+
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+          URL_ROOT:    './',
+          VERSION:     '1.0.8',
+          COLLAPSE_MODINDEX: false,
+          FILE_SUFFIX: '.html'
+      };
+    </script>
+        <script type="text/javascript" src="./Mako 1.0.8 Documentation_files/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="./Mako 1.0.8 Documentation_files/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="./Mako 1.0.8 Documentation_files/underscore.js"></script>
+        <script type="text/javascript" src="./Mako 1.0.8 Documentation_files/doctools.js"></script>
+        <script type="text/javascript" src="./Mako 1.0.8 Documentation_files/readthedocs-doc-embed.js"></script>
+    <link rel="index" title="Index" href="http://docs.makotemplates.org/en/latest/genindex.html">
+    <link rel="search" title="Search" href="http://docs.makotemplates.org/en/latest/search.html">
+    <link rel="top" title="Mako 1.0.8 Documentation" href="http://docs.makotemplates.org/en/latest/index.html#">
+        <link rel="next" title="Usage" href="http://docs.makotemplates.org/en/latest/usage.html">
+
+
+
+
+
+
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="http://docs.makotemplates.org/en/latest/">
+
+<link rel="stylesheet" href="./Mako 1.0.8 Documentation_files/readthedocs-doc-embed.css" type="text/css">
+
+<script type="text/javascript" src="./Mako 1.0.8 Documentation_files/readthedocs-data.js"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = 'index'
+READTHEDOCS_DATA['source_suffix'] = '.rst'
+</script>
+
+<script type="text/javascript" src="./Mako 1.0.8 Documentation_files/readthedocs-analytics.js"></script>
+
+<!-- end RTD <extrahead> -->
+</head>
+<body style="">
+    <div id="wrap">
+    <div class="rightbar">
+
+    <div class="slogan">
+    Hyperfast and lightweight templating for the Python platform.
+    </div>
+
+    <div class="toolbar">
+    <a href="http://www.makotemplates.org/">Home</a>
+    &nbsp; | &nbsp;
+    <a href="http://www.makotemplates.org/community.html">Community</a>
+    &nbsp; | &nbsp;
+    <a href="http://docs.makotemplates.org/en/latest/index.html#">Documentation</a>
+    &nbsp; | &nbsp;
+    <a href="http://www.makotemplates.org/download.html">Download</a>
+    </div>
+
+    </div>
+
+    <a href="http://www.makotemplates.org/"><img src="./Mako 1.0.8 Documentation_files/makoLogo.png"></a>
+
+    <hr>
+
+    
+
+
+
+
+
+
+
+
+
+
+<div id="docs-container">
+
+
+
+<div id="docs-header">
+    <h1>Mako 1.0.8 Documentation</h1>
+
+    <div id="docs-search">
+    Search:
+    <form class="search" action="http://docs.makotemplates.org/en/latest/search.html" method="get">
+      <input type="text" name="q" size="18"> <input type="submit" value="Search">
+      <input type="hidden" name="check_keywords" value="yes">
+      <input type="hidden" name="area" value="default">
+    </form>
+    </div>
+
+    <div id="docs-version-header">
+        Release: <span class="version-num">1.0.8</span>
+
+    </div>
+
+</div>
+
+<div id="docs-top-navigation">
+    <div id="docs-top-page-control" class="docs-navigation-links">
+        <ul>
+            <li>Next:
+            <a href="http://docs.makotemplates.org/en/latest/usage.html" title="next chapter">Usage</a>
+            </li>
+
+        <li>
+            <a href="http://docs.makotemplates.org/en/latest/index.html#">Table of Contents</a> |
+            <a href="http://docs.makotemplates.org/en/latest/genindex.html">Index</a>
+            | <a href="http://docs.makotemplates.org/en/latest/_sources/index.rst.txt">view source
+        </a></li><a href="http://docs.makotemplates.org/en/latest/_sources/index.rst.txt">
+        </a></ul><a href="http://docs.makotemplates.org/en/latest/_sources/index.rst.txt">
+    </a></div><a href="http://docs.makotemplates.org/en/latest/_sources/index.rst.txt">
+
+    </a><div id="docs-navigation-banner"><a href="http://docs.makotemplates.org/en/latest/_sources/index.rst.txt">
+        </a><a href="http://docs.makotemplates.org/en/latest/index.html#">Mako 1.0.8 Documentation</a>
+
+        <h2>
+            
+                Table of Contents
+            
+        </h2>
+    </div>
+
+</div>
+
+<div id="docs-body-container">
+
+
+    <div id="docs-body" class="">
+        <!-- readthedocs add-in template -->
+
+
+
+
+
+
+
+
+<div class="section" id="table-of-contents">
+<h1>Table of Contents<a class="headerlink" href="http://docs.makotemplates.org/en/latest/index.html#table-of-contents" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/usage.html">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/usage.html#basic-usage">Basic Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/usage.html#using-file-based-templates">Using File-Based Templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/usage.html#using-templatelookup">Using <code class="docutils literal notranslate"><span class="pre">TemplateLookup</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/usage.html#using-unicode-and-encoding">Using Unicode and Encoding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/usage.html#handling-exceptions">Handling Exceptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/usage.html#common-framework-integrations">Common Framework Integrations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/usage.html#api-reference">API Reference</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html">Syntax</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html#expression-substitution">Expression Substitution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html#expression-escaping">Expression Escaping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html#control-structures">Control Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html#comments">Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html#newline-filters">Newline Filters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html#python-blocks">Python Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html#module-level-blocks">Module-level Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html#tags">Tags</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/syntax.html#exiting-early-from-a-template">Exiting Early from a Template</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/defs.html">Defs and Blocks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/defs.html#using-defs">Using Defs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/defs.html#using-blocks">Using Blocks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/runtime.html">The Mako Runtime Environment</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/runtime.html#context">Context</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/runtime.html#the-loop-context">The Loop Context</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/runtime.html#all-the-built-in-names">All the Built-in Names</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/runtime.html#api-reference">API Reference</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/namespaces.html">Namespaces</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/namespaces.html#ways-to-call-namespaces">Ways to Call Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/namespaces.html#namespaces-from-regular-python-modules">Namespaces from Regular Python Modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/namespaces.html#declaring-defs-in-namespaces">Declaring Defs in Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/namespaces.html#the-body-method">The <code class="docutils literal notranslate"><span class="pre">body()</span></code> Method</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/namespaces.html#built-in-namespaces">Built-in Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/namespaces.html#inheritable-namespaces">Inheritable Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/namespaces.html#namespace-api-usage-example-static-dependencies">Namespace API Usage Example - Static Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/namespaces.html#api-reference">API Reference</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/inheritance.html">Inheritance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/inheritance.html#nesting-blocks">Nesting Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/inheritance.html#rendering-a-named-block-multiple-times">Rendering a Named Block Multiple Times</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/inheritance.html#but-what-about-defs">But what about Defs?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/inheritance.html#using-the-next-namespace-to-produce-content-wrapping">Using the <code class="docutils literal notranslate"><span class="pre">next</span></code> Namespace to Produce Content Wrapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/inheritance.html#using-the-parent-namespace-to-augment-defs">Using the <code class="docutils literal notranslate"><span class="pre">parent</span></code> Namespace to Augment Defs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/inheritance.html#using-include-with-template-inheritance">Using <code class="docutils literal notranslate"><span class="pre">&lt;%include&gt;</span></code> with Template Inheritance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/inheritance.html#inheritable-attributes">Inheritable Attributes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/filtering.html">Filtering and Buffering</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/filtering.html#expression-filtering">Expression Filtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/filtering.html#filtering-defs-and-blocks">Filtering Defs and Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/filtering.html#buffering">Buffering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/filtering.html#decorating">Decorating</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/unicode.html">The Unicode Chapter</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/unicode.html#specifying-the-encoding-of-a-template-file">Specifying the Encoding of a Template File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/unicode.html#handling-expressions">Handling Expressions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/unicode.html#defining-output-encoding">Defining Output Encoding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/unicode.html#saying-to-heck-with-it-disabling-the-usage-of-unicode-entirely">Saying to Heck with It: Disabling the Usage of Unicode Entirely</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/caching.html">Caching</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/caching.html#cache-arguments">Cache Arguments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/caching.html#programmatic-cache-access">Programmatic Cache Access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/caching.html#cache-plugins">Cache Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/caching.html#api-reference">API Reference</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/changelog.html#id1">1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/changelog.html#id2">0.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/changelog.html#id3">0.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/changelog.html#id4">0.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="http://docs.makotemplates.org/en/latest/changelog.html#older-versions">Older Versions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="indices-and-tables">
+<h2>Indices and Tables<a class="headerlink" href="http://docs.makotemplates.org/en/latest/index.html#indices-and-tables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="http://docs.makotemplates.org/en/latest/genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="http://docs.makotemplates.org/en/latest/search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+</div>
+
+
+
+
+    </div>
+
+</div>
+
+<div id="docs-bottom-navigation" class="docs-navigation-links">
+        Next:
+        <a href="http://docs.makotemplates.org/en/latest/usage.html" title="next chapter">Usage</a>
+
+    <div id="docs-copyright">
+        © Copyright the Mako authors and contributors.
+        Documentation generated using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.7.4
+        with Mako templates.
+    </div>
+</div>
+
+</div>
+
+<div class="clearfix">
+
+    
+<hr>
+
+<div class="copyright">Website content copyright © by Michael Bayer.
+    All rights reserved.  Mako and its documentation are licensed
+    under the MIT license.  mike(&amp;)zzzcomputing.com</div>
+
+
+</div>
+</div>
+
+
+<!-- Inserted RTD Footer -->
+<div class="injected">
+
+  
+  <div class="rst-versions rst-badge" data-toggle="rst-versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book">&nbsp;</span>
+      v: latest
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+
+      
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+         <strong> 
+        <dd><a href="http://docs.makotemplates.org/en/latest/">latest</a></dd>
+         </strong> 
+        
+      </dl>
+      
+      
+
+      
+      
+      <dl>
+        <dt>Downloads</dt>
+        
+        <dd><a href="http://readthedocs.org/projects/mako/downloads/pdf/latest/">PDF</a></dd>
+        
+        <dd><a href="http://readthedocs.org/projects/mako/downloads/htmlzip/latest/">HTML</a></dd>
+        
+        <dd><a href="http://readthedocs.org/projects/mako/downloads/epub/latest/">Epub</a></dd>
+        
+      </dl>
+      
+      
+
+      
+      <dl>
+        <!-- These are kept as relative links for internal installs that are http -->
+        <dt>On Read the Docs</dt>
+        <dd>
+          <a href="http://readthedocs.org/projects/mako/">Project Home</a>
+        </dd>
+        <dd>
+          <a href="http://readthedocs.org/projects/mako/builds/">Builds</a>
+        </dd>
+        <dd>
+          <a href="http://readthedocs.org/projects/mako/downloads/">Downloads</a>
+        </dd>
+      </dl>
+      
+
+      
+
+      
+      <dl>
+        <dt>On GitHub</dt>
+        <dd>
+          <a href="https://github.com/zzzeek/mako/blob/master/doc/build/index.rst">View</a>
+        </dd>
+        <dd>
+          <a href="https://github.com/zzzeek/mako/edit/master/doc/build/index.rst">Edit</a>
+        </dd>
+      </dl>
+      
+      
+
+      
+      <dl>
+        <dt>Search</dt>
+        <dd>
+          <div style="padding: 6px;">
+            <form id="flyout-search-form" class="wy-form" target="_blank" action="http://readthedocs.org/projects/mako/search/" method="get">
+              <input type="text" name="q" placeholder="Search docs">
+              </form>
+          </div>
+        </dd>
+      </dl>
+      
+
+
+
+      <hr>
+      
+        <small>
+          <span>Hosted by <a href="https://readthedocs.org/">Read the Docs</a></span>
+          <span> · </span>
+          <a href="https://docs.readthedocs.io/en/latest/privacy-policy.html">Privacy Policy</a>
+        </small>
+      
+
+      
+    </div>
+  </div>
+  
+
+</div>
+</body></html>
