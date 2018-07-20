@@ -1,0 +1,3 @@
+安装Scrapy时 报错需要安装VS C++ 14.0
+去第三方库下载lxml和 twisted 对应当前的python和对应的操作系统版本
+安装完上面两个库后再次安装scrapy就可以了
