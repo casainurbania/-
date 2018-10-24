@@ -1,0 +1,5 @@
+pycharm报错django.core.exceptions.ImproperlyConfigured: Requested setting CACHES, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings. 结果百度了半天没结果，最后还是在 老外的网站上找到了答案。 本来django项目在 python shell 中可以完美运行，在pycharm里面就不行，原因是pycharm 要你配置一个 环境变量 DJANGO_SETTINGS_MODULE 这个变量告诉django项目去找哪一个settings 文件。 具体的步骤：
+
+1、Run –> EditConfigures
+
+2、找到python一项 具体名字是 Python tests（注意不是django那一个），然后修改里面的Environment variables 添加一项。名称是DJANGO_SETTINGS_MODULE 值是 你的settings,比如 mysite.settings 。
